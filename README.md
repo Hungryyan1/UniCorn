@@ -19,7 +19,7 @@
 </p>
 
 # UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision
-> Ruiyan Han*, [Zhen Fang*](https://costaliya.github.io/), Xinyu Sun*, Yuchen Ma, Ziheng Wang, Yu Zeng, [Zehui Chen](https://lovesnowbest.site/), [Lin Chen](https://lin-chen.site/), Wenxuan Huang, Wei-Jie Xu, Yi Cao, and Feng Zhao
+> Ruiyan Han*, [Zhen Fang*](https://costaliya.github.io/), Xinyu Sun*, Yuchen Ma, Ziheng Wang, [Yu Zeng](https://scholar.google.com/citations?user=XJmAr8EAAAAJ&hl=en&oi=sra), [Zehui Chen](https://lovesnowbest.site/), [Lin Chen](https://lin-chen.site/), Wenxuan Huang, Wei-Jie Xu, Yi Cao, and Feng Zhao
 >
 > contact: fazii@mail.ustc.edu.cn
 > 
