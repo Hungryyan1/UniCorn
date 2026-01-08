@@ -2,25 +2,15 @@
   <img src="assets/UniCorn_LOGO.png" alt="UniCorn" width="350"/>
 </p>
 
-<p align="center">
-  <a href="https://arxiv.org/pdf/2601.03193">
-    <img
-      src="https://img.shields.io/badge/UniCorn-Paper-red"
-      alt="UniCorn Paper on arXiv"
-    />
-  </a>
-  <a href="https://huggingface.co/CostaliyA/UniCorn">
-    <img 
-        src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue" 
-        alt="SRUM Model"
-    />
-  
- 
-</p>
+
 
 # UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision
 > Ruiyan Han*, [Zhen Fang*](https://costaliya.github.io/), Xinyu Sun*, Yuchen Ma, Ziheng Wang, [Yu Zeng](https://scholar.google.com/citations?user=XJmAr8EAAAAJ&hl=en&oi=sra), [Zehui Chen](https://lovesnowbest.site/), [Lin Chen](https://lin-chen.site/), Wenxuan Huang, Wei-Jie Xu, Yi Cao, and Feng Zhao
 >
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.03193v1)
+[![Benchmark](https://img.shields.io/badge/Benchmark-1E88E5?style=for-the-badge&logo=benchmark&logoColor=white)](https://github.com/shierlouz/Unicycle)
+[![Hugging Face Collection](https://img.shields.io/badge/HF_Models-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/CostaliyA/UniCorn)
+[![Project Page](https://img.shields.io/badge/Project_Page-00CED1?style=for-the-badge&logo=web&logoColor=white)](https://costaliya.github.io/UniCorn.github.io//)
 > contact: fazii@mail.ustc.edu.cn
 > 
 > While Unified Multimodal Models (UMMs) have achieved remarkable success in cross-modal comprehension, a significant gap persists in their ability to leverage such internal knowledge for high-quality generation. We formalize this discrepancy as Conduction Aphasia, a phenomenon where models accurately interpret multimodal inputs but struggle to translate that understanding into faithful and controllable synthesis. To address this, we propose **UniCorn**, a simple yet elegant self-improvement framework that eliminates the need for external data or teacher supervision. By partitioning a single UMM into three collaborative roles: Proposer, Solver, and Judge, UniCorn generates high-quality interactions via self-play and employs cognitive pattern reconstruction to distill latent understanding into explicit generative signals. To validate the restoration of multimodal coherence, we introduce UniCycle, a cycle-consistency benchmark based on a Text to Image to Text reconstruction loop. Extensive experiments demonstrate that UniCorn achieves comprehensive and substantial improvements over the base model across six general image generation benchmarks. Notably, it achieves SOTA performance on TIIF(73.8), DPG(86.8), CompBench(88.5), and UniCycle while further delivering substantial gains of +5.0 on WISE and +6.5 on OneIG. These results highlight that our method significantly enhances T2I generation while maintaining robust comprehension, demonstrating the scalability of fully self-supervised refinement for unified multimodal intelligence.
