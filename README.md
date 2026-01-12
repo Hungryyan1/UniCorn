@@ -32,9 +32,8 @@ As we scale up BAGEL’s pretraining with more multimodal tokens, we observe con
 
 We sincerely thank all contributors from the open community for their valuable support.
 
+- **Jan. 12, 2026:** We released the our [checkpoint](https://huggingface.co/CostaliyA/UniCorn). Welcome to download and try!
 - **Jan. 7, 2026:** We released the official [report](https://arxiv.org/pdf/2601.03193) for UniCorn. 
-<!-- And please upvote for our [huggingface daily paper](https://huggingface.co/papers/2510.12784) as well as try the [demo](https://huggingface.co/spaces/Wayne-King/SRUM_Bagel_MoT-7B) -->
-
 
 
 ## 📝 To-Do List
