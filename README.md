@@ -92,10 +92,10 @@ Follow the Bagel's original settings, you should focus:
 Please refer to the official instruction of [BAGEL](https://github.com/bytedance-seed/BAGEL)
 
 ### Data Generation
-We provide our code in [data_generation], including prompt generation, image generation, reward generation and cognitive pattern reconstruction.
+We provide our code in [data_generation](https://github.com/Hungryyan1/UniCorn/tree/main/data_generation), including prompt generation, image generation, reward generation and cognitive pattern reconstruction.
 
 ### Training
-The training script is provided in [scripts/train/train_bagel_reward_self_mix.sh], corresponding config file is provided in [data/configs/self_mix_data_5k_gen.yaml]
+The training script is provided in [scripts/train/train_bagel_reward_self_mix.sh](https://github.com/Hungryyan1/UniCorn/blob/main/scripts/train/train_bagel_reward_self_mix.sh), corresponding config file is provided in [data/configs/self_mix_data_5k_gen.yaml](https://github.com/Hungryyan1/UniCorn/blob/main/data/configs/self_mix_data_5k_gen.yaml)
 
 ## 🙏 Acknowledgments
 
