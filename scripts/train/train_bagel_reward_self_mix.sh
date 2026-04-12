@@ -1,0 +1,27 @@
+torchrun \
+  --nnodes=1 \
+  --nproc_per_node=8 \
+  train/pretrain_unified_navit.py \
+  --dataset_config_file $config_file \
+  --model_path $model_path \
+  --layer_module Qwen2MoTDecoderLayer \
+  --max_latent_size 64 \
+  --resume-from $model_path \
+  --finetune_from_hf True \
+  --auto_resume True \
+  --resume-model-only True \
+  --finetune-from-ema True \
+  --log_every 10 \
+  --lr 1e-5 \
+  --ema 0.99 \
+  --warmup_steps 50 \
+  --visual_und=True \
+  --ce_weight 0.1 \
+  --num_worker 4 \
+  --max_num_tokens_per_sample 20480 \
+  --gradient_accumulation_steps 4 \
+  --results_dir $result_dir \
+  --checkpoint_dir $result_dir/checkpoints \
+  --total_steps 600 \
+  --save_every 200 \
+  --wandb_name $wandb_name
