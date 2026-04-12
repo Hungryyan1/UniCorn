@@ -32,6 +32,7 @@ As we scale up BAGEL’s pretraining with more multimodal tokens, we observe con
 
 We sincerely thank all contributors from the open community for their valuable support.
 
+- **Apr. 12, 2026** We fully released our code.
 - **Jan. 12, 2026:** We released the our [checkpoint](https://huggingface.co/CostaliyA/UniCorn). Welcome to download and try!
 - **Jan. 7, 2026:** We released the official [report](https://arxiv.org/pdf/2601.03193) for UniCorn. 
 
